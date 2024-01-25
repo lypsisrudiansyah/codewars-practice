@@ -10,7 +10,7 @@
 
 
 ```javascript
-
+// SOLUTION 1
 // function grow(x){
 //   result = x[0];
 //   for (let i = 1; i < x.length; i++) {
@@ -19,5 +19,6 @@
 //   return result;
 // }
 
+// SOLUTION 2
 const grow = (x) => x.reduce((accumulator, curr) => accumulator * curr);
 ```
