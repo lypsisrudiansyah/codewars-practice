@@ -54,4 +54,7 @@ function what_list_am_i_on(array $actions): string {
 
   return $res[0] >= $res[1] ? 'naughty' : 'nice';
 }
+
 ```
+
+Source : https://www.codewars.com/kata/585eaef9851516fcae00004d
